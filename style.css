@@ -707,3 +707,135 @@ nav{
 
 
 /* footer section start here */
+.main-footer{
+    background-color: #1e1e1e;
+    color:white;
+    padding: 80px 5% 30px;
+}
+
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:40px;
+    margin-bottom: 50px;
+}
+
+.footer-logo img{
+    max-width: 300px;
+    height: 50px;
+}
+
+.footer-logo p{
+    color:#999;
+    line-height: 1.6;
+    margin-bottom: 20px;;
+}
+
+.social-link{
+    display: flex;
+    gap:15px;
+}
+
+.social-link a{
+    text-decoration: none;
+    color:white;
+    transition: color 0.3s ease;
+}
+
+.social-link a:hover{
+    color:#4BAF47;
+}
+
+.footer-links h3,
+.footer-news h3,
+.footer-contact h3{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer-links ul{
+    list-style: none;
+    padding:0;
+}
+
+.footer-links ul li {
+    margin-bottom: 15px;
+}
+
+.footer-links ul li a{
+    color:#999;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover{
+    color:#4BAF47;
+}
+
+.news-item{
+    margin-bottom: 20px;
+    color:#999;
+}
+
+.news-item span{
+    color:#319e76;
+}
+
+.contact-info p{
+    color:#999;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.newsletter{
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsletter input{
+    flex: 1;
+    padding:12px;
+    background: #2a2a2a;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter button{
+    padding:12px 20px;
+    background: #4BAF47;
+    border:none;
+    color:white;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+
+}
+
+.newsletter button:hover{
+    background: #319e76;
+}
+
+.footer-bottom{
+    width: 80%;
+    margin: 0 auto;
+    padding-top:30px;
+    border-top: 1px  solid #2a2a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#999;
+}
+
+.foot-link a:hover{
+    color:#1F4E3D;
+}
+.foot-link a{
+    text-decoration: none;
+    color: gray;
+}
+
